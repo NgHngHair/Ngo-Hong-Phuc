@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+           background-color: #00BFFF;
+            font-family: 'Poppins', cursive;
+            text-align: center;
+	    margin: 0;
+	    padding: 0;
+          }
+.navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.8);
+            padding: 10px 0;
+            box-shadow: 0 0 10px cyan;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .navbar a:hover {
+            color: cyan;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 60px;
+}
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .box {
+	    padding-top:30px;
+            width: 60%;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.3); 
+            border: 2px solid cyan;
+            box-shadow: 0 0 20px cyan, 0 0 40px magenta;
+        }
+        .box:hover {
+            box-shadow: 0 0 30px cyan, 0 0 60px magenta;
+            transform: scale(1.05);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border: 3px solid magenta;
+            border-radius: 50%;
+            margin: auto;
+            background-position: center;
+            background-image: url('imagines/hello.gif');
+            background-size: cover;
+            animation: changeImage 7s forwards;
+        }
+        @keyframes changeImage {
+            0% { background-image: url('imagines/hello.gif'); }
+            100% { background-image: url('imagines/1234.jpg'); }
+        }
+        h1, h2 {
+            color: black;
+        }
+        p {
+            color: black;
+            margin-top: 10px;
+	    font-size: 16px;
+	    line-height: 1.6;
+        }
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 30px;
+}
+.side-box {
+    width: 50%;
+    border: 2px solid cyan;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 15px cyan;
+    background: rgba(0,0,0,0.3); 
+    min-width: 300px;
+}
+.side-box:hover {
+            box-shadow: 0 0 30px cyan, 0 0 60px magenta;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+<div class="navbar">
+        <a href="#so-thich">Sở thích</a>
+        <a href="#thanh-tich">Thành tích</a>
+        <a href="#mon-hoc-yeu-thich">Môn học yêu thích</a>
+        <a href="#uoc-mo">Ước mơ và mong muốn</a>
+        <a href="#cam-nhan">Cảm nhận</a>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1>Giới thiệu bản thân</h1>
+            <div class="profile-pic"></div>
+            <p>Ngô Hồng Phúc</br>
+               12C5B</p>
+        </div>
+<div class="flex-container">
+            <div id="so-thich" class="side-box">
+                <h2>Sở thích</h2>
+                <p>- Nghe nhạc</p>
+		<p>- Tập nhảy</p>
+		<p>- Xem phim</p>
+            </div>
+            <div id="thanh-tich" class="side-box">
+                <h2>Thành Tích</h2>
+                <p>- Là một trong những học sinh Chuyên Hóa.</p>
+		<p>- Đạt giải HSG thành phố môn Tiếng Anh.</p>
+            </div>
+        </div>
+    </div>
+<div id="mon-hoc-yeu-thich" class="box">
+<h2>Môn học yêu thích</h2>
+<p> Môn Hóa học</p>
+<img src="imagines/chemistry.jpg">
+<p>Hóa học là một trong những môn học mà em yêu thích nhất.</p>
+<p>Bởi lẽ môn học này chứa đựng nhiều thí nghiệm kì diệu cùng</p>
+<p>những hiện tượng xảy ra xoay quanh cuộc sống của chúng ta</p>
+</div>
+<div id="uoc-mo" class="box">
+<h2> Ước mơ và mong muốn</h2>
+<p>Phiên dịch viên</p>
+<img src="imagines/pd.jpg">
+<p>Với ưu điểm có thể tiếp thu ngôn ngữ, ước mơ của em là</p>
+<p>trở thành một phiên dịch viên, một người có thể phá bỏ</p>
+<p>những rào cản về ngôn ngữ cho mọi người và tự mình tiếp</p>
+<p>thu được những kiến thức từ nhiều nền văn hóa khác nhau.</p>
+</div>
+<div id="cam-nhan" class="box">
+<h2>Cảm nhận về những năm học cấp ba</h2>
+<p>Những năm học cấp ba em đã được gặp nhiều bạn mới.</p>
+<p>Các bạn đều rất đáng yêu và thân thiện, luôn tôn trọng nhau</p>
+<p>Em rất trân trọng và cảm thấy hạnh phúc vì những điều ấy.</p>
+<img src="imagines/263.jpg">
+<p>Các thầy cô đã từng và đang dạy học cho chúng em đều rất</p>
+<p>yêu thương và tận tâm với học sinh của mình. Em hi vọng</p>
+<p>sau này mình vẫn sẽ luôn gặp được những con người đáng quý như thế.</p>
+</div>
+<p><a href="https://nghnghair.github.io/nhom-5-chi-em-siu-nhan/"> Quay lại trang chủ</a></p>
+</body>
+</html>
